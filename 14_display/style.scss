@@ -1,0 +1,66 @@
+@import '_reset';
+
+$primary-dark: #043873;
+$primary-light: #4F9CF9;
+$accent: #FFE492;
+$danger: red;  
+ 
+
+@mixin buttonHover($baseColor,$hoverColor) {
+  background: $baseColor;
+
+  &:hover {
+    background:$hoverColor;
+  }
+}
+@mixin mobile {
+  @media(max-width:767px) {
+    @content;
+  }
+}
+
+.btn {  
+
+  &--delete {
+    @include buttonHover($danger,$primary-dark);
+  }
+  
+} 
+///BLOCK
+.card {
+  @extend %fullBlock;
+  color: orange;
+  ///ELEMENT
+  &__image {
+    height: 300px;
+    @include mobile {
+      height: 150px;
+    }
+  }
+  &__content {
+    padding: 20px;
+    color: blue;
+    @include mobile {
+      padding: 10px;
+    }
+  }
+}
+
+.article {
+    @extend %fullBlock;
+    width: 50%;
+    @include mobile {
+      width: 100%;
+    }
+}
+
+%fullBlock {
+  float: left;
+  width: 100%;
+}
+
+
+
+
+
+ 

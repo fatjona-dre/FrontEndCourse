@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <div class="container">
+    <form action="">
+        <p>Favourite fruit?</p>
+        <br>
+        <label>
+            Apple
+        <input type="checkbox" value="apple" name="fruits">
+        </label>
+    </br>
+        <br>
+         <label>
+            Orange
+        <input type="checkbox" value="orange" name="fruits">
+        </label>
+    </br>
+        <br>
+         <label>
+            Grape
+        <input type="checkbox" value="grape" name="fruits">
+        </label>
+    </br>
+        <br>
+        <label>
+        <input type="text" value="send">
+        </label>
+    </br>
+        
+        <br>
+        <fieldset>
+            <Legend>Personal Data</Legend>
+            <br>
+        <label>
+            Your email?
+        <input type="email" value="email">
+        </label>
+    </br>
+        <br>
+        <label>
+            Your phone?
+        <input type="number">
+        </label>
+    </br>
+    <br>
+        <label>
+            Your website?
+        <input type="url" >
+        </label>
+    </br>
+    <br>
+        <label>
+            Date of birth?
+        <input type="date">
+        </label>
+    </br>
+    <br>
+        <label>
+            Favourite movies?
+        <select name="movies" required>
+            <option value="1">Titanic</option>
+            <option value="2">Godfather</option>
+            <option value="3">Dune</option>
+            <option value="4">Star Wars</option>
+            <option value="5">Borat</option>
+            <option value="">Placeholder</option>
+            <option disabled selected value="">Placeholder</option>
+</select>
+        </label>
+    </br>
+    <br>
+    <label>
+        Password?
+        <input minlength ="5" maxlength="10" type="password">
+    </label>
+</br>
+        </fieldset>
+        <div class="input-wrapper">
+            <label for="test_id">Write a text</label>
+        </div>
+        <input type="submit" value="send">
+
+    </form>
+    </div>
+</body>
+</html>

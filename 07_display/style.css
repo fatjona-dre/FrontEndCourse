@@ -1,0 +1,17 @@
+.flex-container {
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}

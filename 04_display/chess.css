@@ -1,0 +1,224 @@
+.nav-list li:nth-child(odd) {
+    background-color: red
+} 
+
+.nav-list li:nth-child(even) {
+    background-color: green;
+}
+
+.nav-list li:nth-child(6) a {
+    background: blue
+}
+
+.box:nth-child(even) {
+    background: lime;
+}
+
+.chess-board-row:nth-child(even) .cell:nth-child(even){
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+
+.chess-board-row:nth-child(odd).cell:nth-child(odd){
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
+.chess-board-row:nth-child(even) .cell:nth-child(even){
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+
+.chess-board-row:nth-child(odd).cell:nth-child(odd){
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+.chess-board-row:nth-child(even) .cell:nth-child(even){
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+
+.chess-board-row:nth-child(odd).cell:nth-child(odd){
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+.chess-board-row:nth-child(even) .cell:nth-child(even){
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+
+.chess-board-row:nth-child(odd).cell:nth-child(odd){
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
+.chess-board-row:nth-child(even) .cell:nth-child(even){
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+
+.chess-board-row:nth-child(odd).cell:nth-child(odd){
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
+.chess-board-row:nth-child(even) .cell:nth-child(even){
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+
+.chess-board-row:nth-child(odd).cell:nth-child(odd){
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+.chess-board-row:nth-child(even) .cell:nth-child(even){
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+
+.chess-board-row:nth-child(odd).cell:nth-child(odd){
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+.chess-board-row:nth-child(even) .cell:nth-child(even){
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+
+.chess-board-row:nth-child(odd).cell:nth-child(odd){
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
+
+
+
+
+
+
+
+
+
+.nav-list li:nth-child(even){
+    background-color:  green;
+} 
+
+.nav-list li:nth-child(odd){
+    background-color: red;
+}
+
+.nav-list li:nth-child(6) a {
+    background: blue
+}
+
+.box:nth-child(odd){
+    background: lime;
+}
+
+.chess-board-row.chess-board-row:nth-child(odd).cell:nth-child(odd){
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
+.chess-board-row:nth-child(.cell:nth-child(even){
+    height: 50px;
+    background: green
+}
+
+.chess-board-row:nth-child(even) .cell:nth-child(even){
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+
+.chess-board-row:nth-child(odd).cell:nth-child(odd){
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+.chess-board-row:nth-child(even) .cell:nth-child(even){
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+
+.chess-board-row:nth-child(odd).cell:nth-child(odd){
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+.chess-board-row:nth-child(even) .cell:nth-child(even){
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+
+.chess-board-row:nth-child(odd).cell:nth-child(odd){
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
+.chess-board-row:nth-child(even) .cell:nth-child(even){
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+
+.chess-board-row:nth-child(odd).cell:nth-child(odd){
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
+.chess-board-row:nth-child(even) .cell:nth-child(even){
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+
+.chess-board-row:nth-child(odd).cell:nth-child(odd){
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+.chess-board-row:nth-child(even) .cell:nth-child(even){
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+
+.chess-board-row:nth-child(odd).cell:nth-child(odd){
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+.chess-board-row:nth-child(even) .cell:nth-child(even){
+    width: 50px;
+    height: 50px;
+    background: green;
+}
+
+.chess-board-row:nth-child(odd).cell:nth-child(odd){
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+

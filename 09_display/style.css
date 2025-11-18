@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent-elem {
+    float: left;
+    width: 500px;
+    height: 280vh;
+    background-color: blue;
+    position: relative;
+}
+
+.parent-elem__child {
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+.parent-elem__child:nth-child(2) {
+    position: relative;
+    background: red;
+    bottom: 0;
+    left: calc(50% - 100px);
+}
+
+.parent-elem__child:nth-child(2) {
+    position: fixed;
+    transform: translate(-50px, -50%);
+    transform: rotate (45deg);
+    top: 50%;
+    left: 50%;
+    height: 300px;
+    transform: scale(1);
+}
