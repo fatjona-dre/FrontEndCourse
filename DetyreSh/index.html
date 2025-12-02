@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Search</title>
+<style>
+body { font-family: Arial; margin: 20px; }
+input, select, button { margin: 5px; }
+.movie { margin-bottom: 10px; }
+.pagination { margin-top: 10px; }
+</style>
+</head>
+<body>
+
+<h1>Movie Search</h1>
+<input type="text" id="search-input" placeholder="Movie name">
+<select id="type-select">
+    <option value="">All</option>
+    <option value="movie">Movie</option>
+    <option value="series">Series</option>
+    <option value="episode">Episode</option>
+</select>
+<button id="search-btn">Search</button>
+
+<div id="results"></div>
+<div id="pagination" class="pagination"></div>
+<div id="details"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
